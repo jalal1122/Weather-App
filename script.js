@@ -12,7 +12,7 @@ let locationGetError = (error) => {
 let getWeather = async (lat, lon) => {
   let apiKey = "9dbedfa13ab9000302a1d2f8c3a1c102";
   //   let city = "London";
-  let url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`;
+  let url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}`;
 
   let data = await fetch(url);
 

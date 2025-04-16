@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #00bee47c;
+  color: #ffffff;
+}
+
+.weather-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  height: 400px;
+  background-color: #00bfe4;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border: 8px solid #04b0d3;
+  transform: translateZ(10px);
+  margin: 100px auto;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+}
+
+.right > * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
