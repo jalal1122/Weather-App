@@ -3,55 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Weather App</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="weather-container">
       <div class="left">
         <div class="left-top">
-          <h1>Seatle</h1>
+          <h1 class="locationName"></h1>
         </div>
         <div class="left-middle">
-          <h3>September 15</h3>
-          <h4>Monday</h4>
+          <h3 class="monthDate"></h3>
+          <h4 class="day"></h4>
         </div>
         <div class="left-bottom">
-            <h1>25<sup>o</sup></h1>
-            <p>Feels Like 23<sup>o</sup></p>
+            <h1 class="temp"></h1>
+            <p class="feelsLike"></p>
         </div>
       </div>
       <div class="middle">
-        <div class="img-div"></div>
+        <div class="img-div">
+          <img src="" alt="weather icon" class="weather-icon" />
+        </div>
         <div class="weather-description">
-            <h2>Sunny</h2>
+            <h2 class="weatherDescription"></h2>
           </div>
       </div>
       <div class="right">
         <div class="sunrise-div">
-            <h2>icon</h2>
-            <h3>Sunrise 7:00</h3>
+            <img src="./assets/sunrise.png" alt="" class="sunriseIcon">
+            <h3 class="sunriseTime"></h3>
         </div>
 
-        <div class="sunrise-div">
-            <h2>icon</h2>
-            <h3>Sunset 19:20</h3>
+        <div class="sunset-div">
+            <img src="./assets/sunset.png" alt="" class="sunsetIcon">
+            <h3 class="sunsetTime"></h3>
         </div>
-        <div class="sunrise-div">
-            <h2>icon</h2>
-            <h3>60%</h3>
+        <div class="humidity-div">
+            <img src="./assets/humidity.png" alt="">
+            <h3 class="humidityLevel"></h3>
         </div>
-        <div class="sunrise-div">
-            <h2>icon</h2>
-            <h3>10 km/h</h3>
-        </div>
-        <div class="sunrise-div">
-            <h2>icon</h2>
-            <h3>Sunrise 7:00</h3>
-        </div>
-        <div class="sunrise-div">
-            <h2>icon</h2>
-            <h3>Sunrise 7:00</h3>
+        <div class="wind-div">
+            <img src="./assets/wind.png" alt="">
+            <h3 class="windSpeed"></h3>
         </div>
       </div>
     </div>
